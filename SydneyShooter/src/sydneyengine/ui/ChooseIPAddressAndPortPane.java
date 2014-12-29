@@ -11,7 +11,9 @@ import java.net.InetSocketAddress;
 import java.net.SocketException;
 import java.net.UnknownHostException;
 import java.util.ArrayList;
+
 import javax.swing.ListSelectionModel;
+
 import sydneyengine.GameConstants;
 import sydneyengine.network.NetworkInterrogator;
 import sydneyengine.shooter.ViewPane;
@@ -37,7 +39,7 @@ public class ChooseIPAddressAndPortPane extends javax.swing.JPanel {
 		try{
 			String localHostAddressString = InetAddress.getLocalHost().getHostAddress();
 			inetAddressList = networkInterrogator.getInetAddressList();
-			String[] inetAddressStringArray = new String[inetAddressList.size()];
+			final String[] inetAddressStringArray = new String[inetAddressList.size()];
 			for (int i = 0; i < inetAddressList.size(); i++){
 				String currentHostAddressString = inetAddressList.get(i).getHostAddress();
 				inetAddressStringArray[i] = currentHostAddressString;

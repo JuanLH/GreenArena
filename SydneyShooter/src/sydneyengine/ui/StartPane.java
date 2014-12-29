@@ -16,12 +16,11 @@ import java.net.UnknownHostException;
 import javax.swing.JDialog;
 import javax.swing.JInternalFrame;
 import javax.swing.ListSelectionModel;
-import javax.swing.SwingConstants;
 import javax.swing.WindowConstants;
 import javax.swing.event.TableModelEvent;
 import javax.swing.table.AbstractTableModel;
-import sydneyengine.GameConstants;
 
+import sydneyengine.GameConstants;
 import sydneyengine.lobby.LobbyInfo;
 import sydneyengine.shooter.ViewPane;
 

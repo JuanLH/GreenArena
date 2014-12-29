@@ -72,6 +72,12 @@ Reorganized files
 =============== Gameplay
 Added Nailgun
 
+12/29/2014
+=============== Bugfixes
+Fixed threading issue with client join attempt failing immediately.
+Server creators allowed to choose IP address they wish to use if they have more than one.
+Point2D.Double target issue in Homing Bullet fixed
+
 
 TODO:
 Fix internet gameplay, make networking more dependable

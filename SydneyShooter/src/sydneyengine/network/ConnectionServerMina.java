@@ -4,7 +4,6 @@
  */
 package sydneyengine.network;
 
-import java.net.InetAddress;
 import java.net.InetSocketAddress;
 
 import org.apache.mina.core.service.IoHandlerAdapter;

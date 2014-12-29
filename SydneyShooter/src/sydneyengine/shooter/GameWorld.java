@@ -23,7 +23,6 @@ import java.util.Random;
 
 import javax.swing.SwingUtilities;
 
-
 //added by KT 12/20/2014
 import kEffects.Explosion;
 import kEffects.ParticleEmitter;

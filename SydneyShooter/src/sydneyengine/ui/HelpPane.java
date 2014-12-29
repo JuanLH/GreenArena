@@ -7,9 +7,9 @@
 package sydneyengine.ui;
 
 import javax.swing.JInternalFrame;
+
 import sydneyengine.Controller;
 import sydneyengine.ServingController;
-
 import sydneyengine.shooter.ViewPane;
 
 /**

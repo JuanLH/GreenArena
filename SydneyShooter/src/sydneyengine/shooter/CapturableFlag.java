@@ -7,11 +7,6 @@ import java.awt.Stroke;
 import java.awt.geom.Ellipse2D;
 import java.awt.geom.Point2D;
 
-import sydneyengine.shooter.GameWorld;
-import sydneyengine.shooter.Player;
-import sydneyengine.shooter.SpawnFlag;
-import sydneyengine.shooter.Team;
-import sydneyengine.shooter.ViewPane;
 import sydneyengine.superserializable.SSAdapter;
 
 public class CapturableFlag extends SSAdapter {

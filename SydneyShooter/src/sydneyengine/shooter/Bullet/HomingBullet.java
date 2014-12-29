@@ -25,7 +25,9 @@ public class HomingBullet extends Bullet {
 	float startX; float startY;
 
 	protected float lifeTimeSeconds;
-	Point2D.Double target;
+	// fixed Point2D.Double problem
+	double targetX;
+	double targetY;
 
 	public HomingBullet() {
 		super();
@@ -70,7 +72,8 @@ public class HomingBullet extends Bullet {
 		
 		if(!dead && getClosestEnemy()!=null && Point2D.distance(x, y, startX, startY) > 40)
 		{
-			target = new Point2D.Double(getClosestEnemy().getX(), getClosestEnemy().getY());
+			targetX = getClosestEnemy().getX();
+			targetY = getClosestEnemy().getY();
 			updateTurning(seconds);
 			this.speedX = (float) (this.getSpeed() * Math.cos(angle));
 			this.speedY = (float) (this.getSpeed() * Math.sin(angle));
