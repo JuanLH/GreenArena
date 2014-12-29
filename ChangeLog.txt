@@ -71,6 +71,7 @@ better console output for debugging, tracing
 Reorganized files
 =============== Gameplay
 Added Nailgun
+Made a Custom Color class for exotic colors like Khaki, Maroon, Turquoise, etc.
 
 12/29/2014
 =============== Bugfixes
@@ -80,7 +81,7 @@ Point2D.Double target issue in Homing Bullet fixed
 
 
 TODO:
-Fix internet gameplay, make networking more dependable
+Fix internet gameplay
 
 Achievements??? - 1st kill, 3rd, 10th, 20th, 30th, 50th, 75th, 100th, 150th, 300th, 500th kills
 Die 1 time, Die 3 times with no kills, Get 3 healthpacks, Get 3 invisibilities, Switch weapons 20 times, used each weapon at least once, killed with each weapon at least once, assist 25 times
@@ -92,6 +93,8 @@ Enhance graphics
 Mech Suits support?
 Destructable walls- possibly by using subtractive polygons
 Map Editor/Maker!
+
+Make bots smarter - auto pathfinding, bullet dodging, finding cover, etc.
 
 ======= when adding a new Gun:
 1. Make new gun, and bullet class
