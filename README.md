@@ -1,5 +1,4 @@
-
-# Defiance #
+# Based Defiance #
 
 ### Overview ###
 This is an enhanced version of the Sydney Engine multiplayer shooter game, written in Java originally by Keith Woodward in 2008, using the Apache Mina networking framework (version 2.0.9).
@@ -13,27 +12,27 @@ This is an enhanced version of the Sydney Engine multiplayer shooter game, writt
 
 ### Playing ###
 
-======[ Dependencies ]====== 
+======[ Dependencies ]======
 The jars are included in the SydneyDependencyJars folder.
 
-======[ Running ]====== 
+======[ Running ]======
 Just load the Eclipse Project, and run the GameFrame.java class.
 Alternatively, just run Defiance.jar.
 
 
-======[ Controls ]====== 
+======[ Controls ]======
 
 Move with Arrow keys or W, A, S, D
 Left mouse click: fires weapon
 R: reloads weapon
 Number keys (1-9) or Q/E or Mouse wheel: selects available weapons
 `[funny key above TAB]: turn on/off player names and hit points
-Enter or ShiftEnter: Activate chat, then and once you've typed the message, press enter again to send. 
+Enter or ShiftEnter: Activate chat, then and once you've typed the message, press enter again to send.
 If shift is down when you first press enter, the 'send to allies' option is ticked
 Page up or down: zoom in/ out
 Escape: displays menu.
-				
-======[ Weapons ]====== 
+
+======[ Weapons ]======
 
 Pistol - Basic weapon with low damage.
 
@@ -56,8 +55,8 @@ Nail Gun - An alternative to the machine gun, that spits out 3 nails at once ver
 ***Note***
 
 Both the Flamethrower and the Rocket Launcher are Variable-Range weapons, meaning their bullets can detonate or stick at a  certain range away from the weapon by using the mouse to aim.
-				
-======[ Items ]====== 
+
+======[ Items ]======
 
 Healthpack - Restores 33% health.
 
@@ -71,11 +70,11 @@ Invisibility Shroud - Enemies can't see and target you for 15 seconds.
 ***Note***
 
 You can only use one of either the Godly Armor or the Invisibility Shroud, but not both. But, the Speedy Shoes can be used with anything.
-				
+
 ======[ Extra ]======  
 
-The wi-fi on laptops may cause noticeable lag over local LAN, but still very playable. 
-				
+The wi-fi on laptops may cause noticeable lag over local LAN, but still very playable.
+
 This was slightly modified from the excellent Sydney Engine v. 0.2, made by Keith Woodward,  whom can find on the forums at www.javagaming.org or contact through keithphw@hotmail.com .
 
 * For more information, please consult the wiki.
@@ -90,12 +89,12 @@ Fix internet gameplay, make networking more dependable
 
 Achievements??? - 1st kill, 3rd, 10th, 20th, 30th, 50th, 75th, 100th, 150th, 300th, 500th kills
 Die 1 time,
-Die 3 times with no kills, 
-Get 3 healthpacks, 
-Get 3 invisibilities, 
-Switch weapons 20 times, 
-used each weapon at least once, 
-killed with each weapon at least once, 
+Die 3 times with no kills,
+Get 3 healthpacks,
+Get 3 invisibilities,
+Switch weapons 20 times,
+used each weapon at least once,
+killed with each weapon at least once,
 assist 25 times
 
 Make personal pop-up alerts configurable in new "GAMEPLAY" menu option
